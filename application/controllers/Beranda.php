@@ -27,4 +27,9 @@ class Beranda extends CI_Controller {
 		echo "Arif";
 		# code...
 	}
+	public function coba($value='')
+	{
+		echo "fungsi coba";
+		echo "<br/>".$this->uri->Segment(3);
+	}
 }

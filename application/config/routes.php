@@ -56,5 +56,6 @@ $route['translate_uri_dashes'] = FALSE;
 //Custom Route
 //Contoh routing nih de. cek di controller. gak ada controller yg namanya home, tp pas ditulis home di address barnya bisa. karna sebenernya ngakses class beranda.
 //coba http://localhost/project1/home. nice :)
-$route['home'] = 'beranda';
-$route['home/(:any)'] = 'beranda/arif';
+//$route['home'] = 'beranda';
+//$route['home/(:any)'] = 'beranda/arif';
+//$route['home/(:any)/(:num)'] = 'beranda/coba/$1';
